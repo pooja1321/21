@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(rgb(202, 63, 63),black
+    );
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+header h1{
+    color: red;
+    font-size: 4rem;
+}
+
+header h1 span{
+    color: white;
+}
+main h2{
+    text-align: center;
+}
+main h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+main #but{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main #but button{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+
+
+}
+main #but #new {
+    background-color: orange;
+}
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+#rbut{
+    text-align: center;
+    margin-top: 1rem;
+}
+#rbut button{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+}
