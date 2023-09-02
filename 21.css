@@ -68,3 +68,15 @@ main p{
     border: none;
     background-color: blue;
 }
+
+@media(max-width:600px){
+#cont {
+    width:80%
+}
+header h1{
+    font-size: 3rem;
+}
+header img{
+    width : 70%
+}
+}
